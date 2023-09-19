@@ -1,0 +1,439 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
+#hadder {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    
+}
+
+#hadder-list {
+    float: right;
+    list-style-type: none;
+}
+
+#hadder-list li {
+    display: inline-block;
+    line-height: 150px;
+    font-size: 20px;
+    
+}
+
+#hadder-list li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 20px;
+}
+
+@media (max-width:450px) {
+    #hadder-list li {
+        position: relative;
+        left: 900px;
+        font-size: 10px;
+        display: block;
+        line-height: 50px;
+    }
+    #hadder-list li a:hover{
+        letter-spacing: 1px;
+    }
+   
+}
+
+#hadder-list li a.active,a:hover{
+    background-color: rgb(174, 0, 255);
+    letter-spacing: 4px;
+}
+
+#title h1 {
+    font-family: 'Black Ops One', cursive;
+    color:rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    width: 1100px;
+    height: 125px;
+    letter-spacing: 180px;
+    font-size: 100px;
+    text-align: center;
+    margin-left: 130px;
+    border: 1px solid blueviolet;
+    border-radius: 40px;
+    padding-left: 20px;
+    padding-right: 30px;
+    text-shadow:rgba(212, 0, 255, 1) 5px 5px, rgba(212, 0, 255, 0.3) 10px 10px, rgba(212, 0, 255, 0.2) 15px 15px, rgba(212, 0, 255, 0.1) 20px 20px, rgba(212, 0, 255, 1) 25px 25px  50px;
+    box-shadow: rgba(212, 0, 255, 0.529) 5px 5px, rgba(212, 0, 255, 0.3) 10px 10px, rgba(212, 0, 255, 0.2) 15px 15px, rgba(212, 0, 255, 0.1) 20px 20px, rgba(212, 0, 255, 0.7) 25px 25px 500px;
+}
+
+#title h1:hover {
+    background-color: aliceblue;
+    color: aliceblue;
+}
+
+.poster img {
+    border-radius: 150px;
+}
+
+.poster {
+    display: inline-block;
+    padding: 80px ;
+    text-align: center;
+    background-color: white;
+    position: relative;
+    left: 30px;
+    
+}
+
+@media (max-width:450px) {
+    .poster{
+        display: block;
+        height: 400px;
+        width: 800px;
+        position: relative;
+        left: 200px;
+        top: 100px;
+        padding-top: 150px;
+        margin-top: 100px;
+    }
+
+    .poster a h2{
+        font-size: 60px;
+        line-height: 20px;
+        
+    }
+
+    .poster a h2:hover{
+        position: relative;
+        left: 200px;
+        width: 400px;
+        height: 70px;
+        background-color: aliceblue;
+        line-height: 70px;
+    }
+
+    .poster img{
+        border:5px solid;
+        border-radius: 20px;
+        height: 350px;
+        width: 700px;
+    }
+
+    
+    
+}
+
+.poster:hover {
+    box-shadow: 2px 2px 500px rgb(131, 0, 253);
+    position: relative;
+    bottom: 0px;
+}
+
+.poster h2:hover {
+    box-shadow: 2px 2px 100px rgb(187, 0, 255);
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    height: 30px;
+    width: 200px;
+    color: rgb(179, 0, 255);
+    position: relative;
+    left: 55px;
+}
+
+.poster h2{
+    color: rgb(162, 0, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.poster a {
+    text-decoration: none;
+}
+
+#content p {
+    font-size: 60px;
+    font-family: 'Caveat', cursive;
+    margin-top: 50px;
+    margin-left: 20px;
+    color: rgb(255, 255, 255);
+}
+
+@media (max-width:450px) {
+    #content p{
+        font-size: 80px;
+        width: 1350px;
+        margin-top: 150px;
+        text-align: center;
+    } 
+}
+
+#content span {
+    color: rgb(195, 0, 255);
+}
+
+#about {
+ margin: 50px;
+ text-align: center;
+ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ border: 1px solid;
+ border-radius: 20px;
+ background-color: black;
+ height: 60px;
+ width: 400px;
+ letter-spacing: 20px;
+ position: relative;
+ left: 32%;
+ box-shadow: rgb(208, 0, 255) 5px -5px 500px;
+}
+
+#about h1 {
+    padding: 0px;
+    margin: 10px;
+}
+
+#about:hover {
+    
+    color: black;
+    border: 1px solid rgb(255, 255, 255);
+    text-shadow: 2px 2px 1px rgb(255, 255, 255);
+}
+
+.zunun p b {
+    color: rgb(195, 0, 255);
+    font-size: 25px;
+    font-family: 'Black Ops One';
+    letter-spacing: 3px;
+}
+
+.zunun {
+    background-color: rgba(76, 76, 76, 0);
+    height: 150px;
+    width: 700px;
+    position: relative;
+    left: 320px;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#zunun h2 {
+    padding: 50px;
+
+    font-family:Arial, Helvetica, sans-serif;
+}
+#zunun h2 span {
+    color: blueviolet;
+    font-size: 50px;
+}
+
+.about-box {
+    position: relative;
+    height: 160px;
+    width: 250px;
+    background-color: rgba(234, 189, 255, 0);
+    display: inline-block;
+    margin: 30px;
+    margin-left: 50px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 20px;
+    color: blueviolet;
+    box-shadow: 2px 2px 500px rgba(137, 43, 226, 0.346);
+}
+
+.about-box h3 {
+    text-align: center;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    color: aliceblue;
+}
+
+#about-box {
+    display: block;
+    position: relative;
+    left: 550px;
+}
+
+.about-box:hover {
+    box-shadow: 2px 2px 500px rgb(131, 0, 253);
+}
+
+
+#poster2 {
+    background-color: rgba(136, 0, 255, 0.279);
+    box-shadow: 2px 2px 100px rgb(191, 0, 255);
+    height: 65px;
+    width: 150px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 0px;
+    display: inline-block;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+#poster3  {
+    background-color: rgba(140, 0, 255, 0.279);
+    box-shadow: 2px 2px 100px rgb(191, 0, 255);
+
+    height: 65px;
+    width: 150px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 0px;
+    display: inline-block;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 1000px;
+}
+
+#combination {
+    margin-top: 50px;
+}
+
+#main h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: rgba(0, 136, 255, 0);
+    height: 60px;
+    width: 500px;
+    position: relative;
+    left: 400px;
+    border-radius: 20px;
+    border: 1px solid blueviolet;
+    box-shadow: 2px 2px 500px rgb(187, 0, 255);
+}
+
+#main h1:hover {
+    background-color: aliceblue;
+    color: rgb(149, 0, 255);
+    box-shadow: 2px 2px 100px rgb(245, 216, 255);
+}
+
+.date {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 5px;
+    background-color: rgba(66, 0, 108, 0.346);
+    height: 70px;
+    width: 350px;
+    padding: 50px;
+    font-size: 20px;
+    display: inline-block;
+    border-radius: 30px;
+    border: 1px solid blueviolet;
+    box-shadow: rgba(136, 0, 255, 0.5) 0px 30px 60px -12px inset, rgba(153, 0, 255, 0.3) 10px -18px 36px -1px inset;
+}
+
+
+.price {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 5px;
+    background-color: rgba(66, 0, 108, 0.346);
+    height: 70px;
+    width: 350px;
+    padding: 50px;
+    font-size: 20px;
+    display: inline-block;
+    position: relative;
+    left: 500px;
+    border-radius: 30px;
+    border: 1px solid blueviolet;
+    box-shadow: rgba(136, 0, 255, 0.5) 0px 30px 60px -12px inset, rgba(153, 0, 255, 0.3) 10px -18px 36px -1px inset;
+}
+
+.price s {
+    color: rgb(255, 0, 0);
+}
+
+#place-box > p {
+    color: rgb(255, 255, 255);
+    background-color: rgba(211, 154, 255, 0);
+    font-size: 35px;
+    margin-left: 510px;
+    margin-top: 80px;
+    padding-top: 15px;
+    padding-left: 20px;
+    border-radius: 20px;
+    height: 60px;
+    width: 350px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+    
+}
+
+.place {
+    display: inline-block;
+    padding-left: 10px;
+    text-align: center;
+    background-color: rgb(7, 0, 10);
+    border-radius: 20px;
+    height: 250px;
+    width: 250px;
+    margin-left: 21px;
+    margin-top: 50px;
+}
+
+.place img {
+    border-radius: 25px;
+}
+
+.place p {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-shadow: 2px 2px 1px rgb(0, 0, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.place:hover {
+    box-shadow: 2px 2px 500px rgb(131, 0, 253);
+    position: relative;
+    bottom: 20px;
+}
+
+.place img {
+    box-shadow: 2px 2px 500px rgb(217, 0, 255);
+    position: relative;
+    top: 10px;
+    border: 1px solid rgb(139, 139, 139);
+}
+
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+    position: relative;
+    left: 550px;
+    top: 200px;
+    
+  }
+
+  .material-symbols-outlined p {
+    color: blueviolet;
+    display: inline-block;
+    font-size: 30px;
+    
+  }
+
+  .material-symbols-outlined H3 {
+    background-color: rgba(17, 0, 26, 0.817);
+    padding: 10px;
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    border: 1px solid rgba(137, 43, 226, 0.485);
+    margin-left: 60px;
+    border-radius: 20px;
+  }
+
+  .material-symbols-outlined h3:hover{
+    box-shadow: 2px 2px 500px rgb(217, 0, 255);
+  }
+
+  
+
+
